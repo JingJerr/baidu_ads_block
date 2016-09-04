@@ -1,0 +1,2 @@
+#屏蔽百度广告
+利用jquery和chrome webrequest api来实现拦截百度广告的目的
