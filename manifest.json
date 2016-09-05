@@ -1,12 +1,12 @@
 {
   "name": "百度广告屏蔽",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "屏蔽广告",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://*.baidu.com/*"
+    "*://www.baidu.com/*"
   ],
   "background": {
     "scripts": [
@@ -24,14 +24,14 @@
         "script.js"
       ],
       "matches": [
-        "*://*.baidu.com/*"
+        "*://www.baidu.com/*"
       ],
       "run_at": "document_end"
     }
   ],
   "converted_from_user_script": true,
   "browser_action": {
-    "default_icon": "icon.ico",
+    "default_icon": "icon.png",
     "default_title": "屏蔽广告",
     "default_popup": "popup.html"
   }
